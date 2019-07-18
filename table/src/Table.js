@@ -18,7 +18,6 @@ const TableBody = (table) => {
 
     const rows=table.characterData.map((value, index)=>{
         return (
-            
             <tr key={index+1}>
                 <td>{value.name}</td>
                 <td>{value.job}</td>
